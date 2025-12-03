@@ -1,0 +1,43 @@
+@charset "UTF-8";
+*{
+ margin:0px;
+ padding: 0px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+html , body{
+    height: 100vh;
+    width: 100vh;
+    background-color: black;
+}
+
+body{
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover; /*cobrir a tela intekira*/}
+    background-attchment:fixed;
+
+main{
+    height:100;
+    position: relative;
+    background-color: green;
+}
+
+section#telefone{
+    /* Essa parte centraliza o bloco no meio*/
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+
+    /*para saber as medidas exatas abra a img no gimp vai em img e propriedade da img*/
+    height: 627px;
+    width: 311px;
+
+
+    /* isso .. significa que vai entrar em duas pastaspara acessar a imagem*/
+    background: url('../imagens/frame-iphone.png') no-repeat; 
+    
+
+
+}
