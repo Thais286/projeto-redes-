@@ -1,5 +1,5 @@
 @charset "UTF-8";
-*{
+*{ /*  * serve para todos*/
  margin:0px;
  padding: 0px;
  font-family: Arial, Helvetica, sans-serif;
@@ -12,6 +12,7 @@ html , body{
 }
 
 body{
+    
     background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover; /*cobrir a tela intekira*/}
     background-attchment:fixed;
@@ -37,7 +38,12 @@ section#telefone{
 
     /* isso .. significa que vai entrar em duas pastaspara acessar a imagem*/
     background: url('../imagens/frame-iphone.png') no-repeat; 
-    
-
-
+}
+     
+iframe#tela{
+    position: relative;
+    top:80px;
+    left:22px;
+    width: 269px;
+    height: 471px;
 }
